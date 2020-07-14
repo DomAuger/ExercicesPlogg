@@ -1,0 +1,200 @@
+﻿<!-- Ecrit par Dominik Auger 
+    juillet 2020 -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title> Exercice front-end Dominik Auger </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./Styles/FrontEndExerciceStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+
+        <img src="Images/DreamingGetAway.png" alt="Dreaming Get Away">
+
+        <ul id="connexion" class="list-inline">
+            <li><a href="#">AIDE</a></li>
+            <li><a href="#">NOUS JOINDRE</a></li>
+            <li><a href="#">ENG</a></li>
+        </ul>
+        <ul id="plannification" class="list-inline">
+            <li><a href="#">ANNONCER</a></li>
+            <li><a href="#">PLANIFIER UN VOYAGE</a></li>
+            <li><a href="#">MES VOYAGES</a></li>
+            <li><a href="#">CONNEXION</a></li>
+        </ul>
+
+    </header>
+
+    <nav>
+        <form action="#">
+            <button id="bTryMtl">Essayer Montréal</button>
+            <select>
+                <option value="">Style</option>
+                <option value="darkStyle">1</option>
+                <option value="lightStyle">2</option>
+            </select>
+            <select>
+                <option value="">Langue</option>
+                <option value="Fr">Français</option>
+                <option value="En">Anglais</option>
+            </select>
+            <button id="arriveeDepart">Arrivée &#8594 Départ <i class="fa fa-calendar"></i></button>
+            <input type="submit" value="Rechercher" id="rechercher" />
+            <ins id="filtres"><b> Plus de filtres</b><button id="addFilters">&#10010</button></ins>
+        </form>
+    </nav>
+
+    <section>
+
+        <h1>DÉCOUVRIR LE MONDE PAR LES VOYAGES !</h1>
+        <button> INSCRIVEZ-VOUS !</button>
+
+    </section>
+
+    <section>
+
+        <img src="Images/Bikers.png" alt="People on bikes" />
+
+        <img src="Images/MoneyIcon.png" alt="moneyIcon" />
+        
+        <h1> GAGNEZ UN REVENU ADDITIONNEL</h1>
+     
+        <p>
+            Derrière elle se cachent ses gens.
+            Ceux qui contribuent à la rendre si unique et qui lui donnent son caractère.
+            Rendez-la plus humaine, plus chaleureuse et acceuillante pour ceux qui la visitent en
+            leur permmettant une immersion authentique avec les gens qui l'habitent !
+        </p>
+
+        <img src="Images/TalkIcon.png" alt="talkIcon" />
+        
+        <h1>FAITES DU VOYAGE UNE EXPÉRIENCE</h1>
+        
+        <p>
+            Rendez les souvenirs de ceux qui voyagent plus riches en y laissant votre empreinte;
+            des fous rires, des surprises, des rencontres.
+            Encouragez les échanges culturels et le respect mutuel.
+            Conférant ainsi au voyage un aspect profondément social.
+        </p>
+
+    </section>
+
+    <section>
+        <img src="Images/Town.png" alt="Image de ville" />
+
+        <img src="Images/ShareIcon.png" alt="Logo share your town" />
+
+        <h1>PARTAGEZ VOTRE VILLE</h1>
+
+        <p>
+            Elle est LA plus belle! Vous la connaissez comme personne sous tous ses angles et toutes ses coutures.
+            Quiconque la visitant devrait la voir comme vous la voyez ;
+            partagez-en à votre amour inconditionnel!
+            Forgez les souvenirs de celui qui la visite à travers vos repères, vos coups de coeur et vos anecdotes!
+        </p>
+
+        <img src="Images/HumanityIcon.png" alt="Logo humanité" />
+
+        <h1>PARTAGEZ VOTRE VILLE</h1>
+
+        <p>
+            Derrière elle se cachent ses gens.
+            Ceux qui contribuent à la rendre si unique et qui lui donnent son caractère.
+            Rendez-la plus humaine, plus chaleureuse et acceuillante pour ceux qui la visitent en
+            leur permmettant une immersion authentique avec les gens qui l'habitent !
+        </p>
+
+    </section>
+
+    <footer>
+
+        <aside>
+            <h3><span class="coloredText">Inscrivez-vous</span> pour recevoir les nouveaux hébergements</h3>
+            <form action="#">
+
+                <input type="email" placeholder="Votre adresse courriel"/>
+                <input type="submit" value="SOUSCRIRE" />
+
+             </form>
+        </aside>
+
+        <aside>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th class="tableHeader">Partagez vos voyages avec nous</th>
+                        <th class="tableHeader">Dreamin Get Away</th>
+                        <th class="tableHeader">Nous joindre</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="Images/FacebookLogo.png" alt="FacebookLogo" />
+                            <img src="Images/TwitterLogo.png" alt="TwitterLogo" />
+                            <img src="Images/LinkedinLogo.png" alt="LinkedinLogo" />
+                            <img src="Images/PinterestLogo.png" alt="PinterestLogo" />
+                            <img src="Images/GoogleLogo.png" alt="GoogleLogo" />
+                            <img src="Images/InstagramLogo.png" alt="InstagramLogo" />
+                        </td>
+                        <td>
+                            <a href="#">À propos</a>
+                        </td>
+                        <td>
+                            <img class="tableLogo" src="Images/PhoneLogo.png" alt="PhoneLogo" />
+                            <span class="spacing">sans-frais</span><span id="phoneNumber"><b> 1800-555-2834</b></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <a href="#">Louer un hébergement</a>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <a href="#">Voyages</a>
+                        </td>
+                        <td>
+                            <img class="tableLogo" src="Images/LetterLogo.png" alt="LettreLogo" />
+                            <span> dreamingetaway.com</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <a href="#">Connexion</a>
+                        </td>
+                        <td>
+                            <img class="tableLogo" src="Images/LocationLogo.png" alt="LocationLogo" />
+                            <span>2092 Blvd St-Joseph, Montréal</span>
+                        </td>
+                    </tr>
+                    <tr id="k">
+                        <td></td>
+                        <td>
+                            <a href="#">Inscription</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><h6> Tous droits réservés 2018 &copy; Découvrir le monde par les voyages</h6></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </aside>
+    </footer>
+
+</body>
+</html>
