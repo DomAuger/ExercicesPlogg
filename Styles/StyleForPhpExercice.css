@@ -1,0 +1,47 @@
+.border {
+    border-width: 3px !important;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    background-color : lightgray;
+}
+
+.table{
+    text-align : center !important;
+    margin-top : 2% !important;
+}
+
+.container{
+    padding : 0px !important;
+    margin-top : 2% !important;
+}
+
+body {
+    background-image: url('../Images/water-falls.gif');
+    background-size : cover;
+    background-repeat : repeat-y;
+}
+
+body, html{
+    height : 100%;
+}
+
+.footer {
+    position: sticky;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: URW Chancery;
+    height: 5%;
+}
+
+.table{
+    border-radius : 3px !important;
+}
+

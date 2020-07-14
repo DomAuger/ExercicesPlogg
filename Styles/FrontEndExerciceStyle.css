@@ -1,0 +1,307 @@
+html, body {
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+#connexion {
+    list-style: none;
+    display: inline;
+    float: right;
+}
+
+.list-inline > li {
+    display: inline;
+    margin: 0px;
+}
+
+#connexion li:last-child {
+    background-color: rgb(1,208,170);
+}
+
+#connexion li:first-child {
+    background-color: rgb(245, 233, 37);
+}
+
+#connexion li:nth-child(2) {
+    background-color: rgb(245, 233, 37);
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    margin-right: 1em;
+}
+
+#plannification {
+    float: right;
+    clear: right;
+    display: inline-flex;
+    /*width : 50%;*/
+    margin-top: .5em;
+}
+
+img {
+    float: left;
+    clear: right;
+    width: 10%;
+}
+
+#plannification.list-inline > li {
+    margin-left: 3em;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+nav {
+    background-color: lightgray;
+    height: 3em;
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+ins {
+    text-decoration: none;
+    color: darkblue;
+}
+
+#addFilters {
+    background-color: lightgray;
+    color: darkblue;
+}
+
+#rechercher {
+    background-color: rgb(1,208,170);
+    border-color: rgb(1,208,170);
+    color: azure;
+    height: 2.5em;
+}
+
+select {
+    background-color: whitesmoke;
+    border: none;
+    padding-right: 3em;
+    height: 2.5em;
+}
+
+button {
+    background-color: whitesmoke;
+    border: none;
+}
+
+#bTryMtl {
+    padding-right: 3em;
+    height: 2.5em;
+}
+
+#arriveeDepart {
+    height: 2.5em;
+}
+
+section:first-of-type button:nth-child(2) {
+    background-color: rgb(1,208,170);
+    border-radius: 8px;
+    color: whitesmoke;
+    margin-top: 1em;
+    float: left;
+}
+
+section:first-of-type{
+    height: 40%;
+    background-image: url('../Images/Sunset.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: left top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section:first-of-type h1:first-child {
+    color: whitesmoke;
+    margin: 0px;
+}
+
+section:nth-of-type(2){
+    height: 40%;
+    width: 100%;
+
+}
+
+section:nth-of-type(2) img:first-child{
+    width : 50%;
+    height: 100%;
+}
+
+section:nth-of-type(2) img:nth-child(2){
+    height: 10%;
+    width: 5%;
+
+}
+
+section:nth-of-type(2) h1:first-of-type {
+    color: rgb(81,75,142);
+    margin-top: 0px;
+}
+
+section:nth-of-type(2) img:nth-of-type(3) {
+    height: 10%;
+    width: 5%;
+}
+
+section:nth-of-type(2) h1:last-of-type {
+    color: rgb(248,105,67);
+}
+
+section:last-of-type{
+    width: 100%;
+    height: 40%;
+}
+
+section:last-of-type img:first-of-type {
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+section:last-of-type h1:first-of-type {
+    color: rgb(1,208,170);
+    max-width: 50%;
+    margin-top: 0px;
+}
+    
+section:last-of-type p:first-of-type{
+    max-width: 50%;
+}
+
+section:last-of-type img:nth-of-type(2) {
+    height: 10%;
+    width: 5%;
+    float: left;
+    clear: left;
+}
+
+section:last-of-type h1:nth-of-type(2) {
+    color: rgb(255,216,0);
+    max-width: 50%;
+}
+
+section:last-of-type p:nth-of-type(2) {
+    max-width: 50%;
+}
+
+section:last-of-type img:last-of-type {
+    height: 10%;
+    width: 5%;
+    float: left;
+    clear: left;
+}
+
+.coloredText {
+    color: rgb(1,208,170);
+}
+
+footer aside:first-child {
+    background-color: rgb(255,216,0);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+footer aside form input:nth-child(2) {
+    background-color: rgb(1,208,170);
+    border-color: rgb(1,208,170);
+    color: whitesmoke;
+}
+
+footer aside h3:first-child{
+    margin-right: 5%;
+}
+
+footer aside:nth-child(2) {
+    background-color: rgb(81,75,142);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.tableHeader{
+    color: whitesmoke;
+}
+
+table{
+    text-align: left;
+    margin-top: 5%;
+}
+
+.tableLogo{
+    height: 100%;
+    width: 15%;
+}
+
+td{
+    color: whitesmoke;
+}
+
+tr a{
+    color: whitesmoke;
+}
+
+footer aside:nth-child(3) {
+    height: 10%;
+    background-color: rgb(81,75,142);
+
+}
+
+footer aside:nth-child(3) h6:first-child{
+    color: whitesmoke;
+}
+
+/*
+#phoneNumber{
+    margin-left: 50%;
+}*/
+
+/*#phoneNumber{
+    float:left;
+    clear: left;
+    margin-left: 15%;
+}*/
+
+/*
+.spacing{
+    margin-right: 50%;
+}*/
+
+h6 {
+    color: whitesmoke;
+}
+
+#k{
+    margin-bottom: 50%;
+}
